@@ -1,0 +1,316 @@
+/* bordas elegantes     */
+.border-bottom-edit  
+.x-form-trigger-wrap-default {
+    padding: 0;
+    border-radius: 0;
+    border: 0;
+    background-color: transparent;
+    border-bottom: 1px solid rgba(51, 51, 51, 0.3) !important;
+    background-image: transparent !important;
+    box-shadow: 0 10px 10px -5px #EEE; 
+}
+
+
+.border-bottom-edit  
+.x-form-trigger-wrap-focus {
+    border:0;
+    border-bottom-style: dotted !important;
+    border-bottom: 1px solid rgba(0, 87, 250, 0.8) !important;
+    background-color: rgb(255, 255, 255) !important;    
+}
+
+.x-form-radio-default {
+    font: 17px/1 FontAwesome;
+    color: #043451 !important;
+}
+.colorBlack {
+   background: rgb(66,66,66);
+   background: -moz-linear-gradient(left, rgb(66,66,66) 0%, rgb(66,66,66) 12%, rgb(54,54,54) 39%, rgb(33,33,33) 76%, rgb(13,13,13) 100%);
+   background: -webkit-gradient(left top, right top, color-stop(0%, rgb(66,66,66)), color-stop(12%, rgb(66,66,66)), color-stop(39%, rgb(54,54,54)), color-stop(76%, rgb(33,33,33)), color-stop(100%, rgb(13,13,13)));
+   background: -webkit-linear-gradient(left, rgb(66,66,66) 0%, rgb(66,66,66) 12%, rgb(54,54,54) 39%, rgb(33,33,33) 76%, rgb(13,13,13) 100%);
+   background: -o-linear-gradient(left, rgb(66,66,66) 0%, rgb(66,66,66) 12%, rgb(54,54,54) 39%, rgb(33,33,33) 76%, rgb(13,13,13) 100%);
+   background: -ms-linear-gradient(left, rgb(66,66,66) 0%, rgb(66,66,66) 12%, rgb(54,54,54) 39%, rgb(33,33,33) 76%, rgb(13,13,13) 100%);
+   background: linear-gradient(to right, rgb(66,66,66) 0%, rgb(66,66,66) 12%, rgb(54,54,54) 39%, rgb(33,33,33) 76%, rgb(13,13,13) 100%);
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#424242', endColorstr='#0d0d0d', GradientType=1 );
+}
+
+.pnLogin{
+         opacity: .7; /* Deixa o form semi transparente */
+        -webkit-box-shadow: 0px 0px 12px -1px rgba(0,0,0,0.62);
+        -moz-box-shadow: 0px 0px 12px -1px rgba(0,0,0,0.62);
+          box-shadow: 0px 0px 12px -1px rgba(0,0,0,0.62);
+          border-radius:6px;
+}
+
+.pnA{
+    
+    -webkit-box-shadow: 0px 0px 12px -1px rgba(0,0,0,0.62);
+    -moz-box-shadow: 0px 0px 12px -1px rgba(0,0,0,0.62);
+      box-shadow: 0px 0px 12px -1px rgba(0,0,0,0.62);
+      border-radius:6px;
+}
+
+.pnB {
+   -webkit-box-shadow: 5px 3px 5px -2px rgba(0,0,0,0.33);
+   -moz-box-shadow: 5px 3px 5px -2px rgba(0,0,0,0.33);
+    box-shadow: 5px 3px 5px -2px rgba(0,0,0,0.33);;
+    border-radius:6px
+}
+
+
+/* cor degrade */
+.color {background: rgb(4,30,37);
+background: -moz-radial-gradient(center, ellipse cover, rgb(4,30,37) 0%, rgb(5,81,127) 0%, rgb(5,71,112) 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgb(4,30,37)), color-stop(0%, rgb(5,81,127)), color-stop(100%, rgb(5,71,112)));
+background: -webkit-radial-gradient(center, ellipse cover, rgb(4,30,37) 0%, rgb(5,81,127) 0%, rgb(5,71,112) 100%);
+background: -o-radial-gradient(center, ellipse cover, rgb(4,30,37) 0%, rgb(5,81,127) 0%, rgb(5,71,112) 100%);
+background: -ms-radial-gradient(center, ellipse cover, rgb(4,30,37) 0%, rgb(5,81,127) 0%, rgb(5,71,112) 100%);
+background: radial-gradient(ellipse at center, rgb(4,30,37) 0%, rgb(5,81,127) 0%, rgb(5,71,112) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#041e25', endColorstr='#054770', GradientType=1 );
+}
+/* borda elegante */
+.bg {-webkit-box-shadow: 0px 0px 30px 0px #c9820a(2,66,194,1);
+     -moz-box-shadow: 0px 0px 30px 0px #c9820a(2,66,194,1);
+      box-shadow: 0px 0px 30px 0px #c9820a(2,66,194,1);
+      border-radius:6px;
+}
+
+/* Retira linhas horizontais */
+.x-grid-with-col-lines .x-grid-cell {
+    border-style: solid;
+    border-color: #e9e9e9;
+    border-width: 0 0px 0 0;
+}
+/* fundo */
+.x-panel-body-default {
+    background: #ffffff;
+    border-color: #ffffff;
+}
+
+/* Diminui a altura dos edits*/
+.x-form-text-default {
+    min-height: 0px!important;
+}
+/* Retira a borda/contorno da celula selecionada no Grid */
+.x-grid-item-focused .x-grid-cell-inner:before { 
+	display: none;
+}
+
+/*Diminui os botoes do grid (getText) */
+.btn-group-sm>.btn, .btn-sm {
+    padding: .1rem .10rem;
+    font-size: .7rem;
+    line-height: 1.5;
+    border-radius: .2rem;
+}
+
+/*Troca cor  barra do Form */
+.x-window-header-default {
+    font-size: 16px;
+    border-color: #000000!important;
+    background-color: #000000!important;
+}
+/*Troca cor em volta do botao fechar do form */
+.x-window-header-default .x-tool-img {
+    background-color: #000000!important;
+}  
+
+/* Chama a fonte para o projeto pelo servidor  */
+@font-face{
+    font-family: "Yu Gothic UI";  
+    src: url('font/yugothib.ttf') format('truetype'); 
+    } 
+    
+       
+/* Retirar linha embaixo dos botoes */
+.x-btn:hover, a:hover {
+text-decoration: none !important;
+}    
+
+
+/* Imagens e Botões aredondares com CSS/ cl */
+.borda, .circulo img {
+ border-radius:6px;
+ 
+}  
+
+/* Imagens e Botões circulares com CSS */
+.circulo, .circulo img {
+ border-radius:50%;
+ 
+} 
+
+/* troca cor das borda superior */
+.x-panel-body-default {
+    background: #ffffff;
+    border-color: #e2e0e0;
+
+}
+
+ /*Muda cor da Borda esquerda do Menu*/
+.x-treelist-nav .x-treelist-item-selected.x-treelist-item-tool {
+    color: #f0f0f0;
+    background-color: #f5b74c;      
+}
+
+/* trocar Menu Lateral, fonte*/
+ .x-treelist-nav .x-treelist-item-text {
+     color: #ffffff;
+     margin-left: 27px;
+     margin-right: 24px;
+     font-size: 11px;
+     line-height: 44px;
+ } 
+
+ 
+    
+
+ /* Cor de fundo do Header do DbGrid */
+.x-column-header, .x-column-header:hover, .x-column-header:active, 
+.x-column-header-inner, .x-column-header-inner:hover, .x-column-header-inner:focus, 
+.x-column-header-trigger, .x-column-header-trigger:hover, .x-grid-header-ct .x-box-inner  { 
+    background: #02243b;
+}
+
+ /* Alter cor do Grid */
+.x-grid-item-selected {
+    color: #000;
+    background-color: #def5ff;
+    text-shadow: 0 0 black;       
+}
+
+/* cor linha de cima do grid*/
+.x-grid-with-row-lines .x-grid-item.x-grid-item-selected {
+    border-style: solid;
+    border-color: #ffffff;
+}
+
+
+/* cor linha de meio do grid*/
+.x-grid-with-col-lines .x-grid-item-selected .x-grid-cell {
+    border-color: #ffffff;
+    border-style: solid;
+}
+
+
+/* cor linha de baixo do grid*/
+.x-grid-with-row-lines .x-grid-item-selected + .x-grid-item {
+    border-top-style: solid;
+    border-top-color: #ffffff;
+}
+/* Grid da Altura*/
+.x-grid-td {
+    overflow: hidden;
+    border-width: 0;
+    vertical-align: initial;  
+}  
+  
+.x-grid-cell-inner {
+    padding: 3px!important;
+    margin: 1px 3px 1px -0px!important;
+} 
+/* Texto do header do Grid */
+.x-column-header .x-column-header-text-inner { 
+    color:#def5ff !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
+    margin: 5px 0 !important;
+} 
+
+/* Espaço interno do Header do Grid */
+.x-column-header-inner {
+    padding: 2px px !important;
+}
+
+/* Espaço interno das Rows do Grid */
+.x-grid-cell  {
+    padding: 2px px !important;    
+   
+}
+
+/* Remove/esconde a seta de ordenação do Header do Grid 
+.x-column-header-trigger, .x-column-header-trigger:hover { 
+    display: none !important;
+} */
+
+/* Retira a borda/contorno da celula selecionada no Grid */
+.x-grid-item-focused .x-grid-cell-inner:before { 
+	display: none;
+}
+
+/* Arredonda bordas edits */  
+ 
+ input[type="text"], input[type="password"], fieldset, textarea    {
+    xxxpadding: 6px !important; /* espaçamento interno do edit - opcional */
+    border: 5 !important;
+    xxx color:#333  !important; /* cor do texto do edit - opcional */
+    xxxbackground: #fff !important; /* cor de fundo, browser compatibility - opcional */
+    xxxbackground-color:#fff !important; /* cor de fundo - opcional */
+    border-radius: 2px !important;  /* arredonda as latertais - opcional */
+}
+
+/* Cor lado esquerdo do menu*/  
+.x-treelist-nav .x-treelist-item-selected.x-treelist-item-tool {
+    color: #f0f0f0;
+    background-color: #f5b74c;
+}
+/* Cor lado esquerdo do menu 2*/
+.x-treelist-nav .x-treelist-item-selected > .x-treelist-row:before {
+    background-color: #f5b74c;
+}
+/* Cor lado esquerdo do menu 2*/
+.x-treelist-nav .x-treelist-row-over:before {
+    background-color: #f5b74c;
+}
+
+/* Cor lado esquerdo do menu 2*/
+.x-treelist-nav .x-treelist-row-over:before {
+    background-color: #c9820a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

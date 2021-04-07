@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <META HTTP-EQUIV = "CACHE-CONTROL" CONTENT = "NO-CACHE">
+    <META HTTP-EQUIV = "EXPIRA" CONTEÚDO = "0">
+    <META HTTP-EQUIV = "PRAGMA" CONTENT = "NO-CACHE">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,user-scalable=0,maximum-scale=1.0,initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <style>
+      @import '{{CSSImport}}';
+    </style>
+</head>
+  <body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col mt-3 ms-1">
+               <!-- <h5>Dashboard <span id="resolucao"></span></h5> -->
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 col-lg-3">
+                <div class="d-flex box box1">
+                    <div class="flex-fill">
+                        <p>Total de Pedidos</p>
+                        <h1>  {{Valor1}}</h1>
+                    </div>
+                    <i class="ml-auto fas fa-comment-dollar"></i>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="d-flex box box2">
+                    <div class="flex-fill">
+                        <p>Pedidos do Dia</p>
+                        <h1>  {{Valor2}}</h1>
+                  </div>
+                  <i class="ml-auto far fa-money-bill-alt"></i>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="d-flex box box3">
+                    <div class="flex-fill">
+                        <p>Pedidos Pendentes</p>
+                        <h1>  {{Valor3}}</h1>
+                    </div>
+                    <i class="ml-auto fas fa-money-bill"></i>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="d-flex box box4">
+                    <div class="flex-fill">
+                        <p>Aguardando Entregues</p>
+                        <h1>{{Valor4}}</h1>
+                    </div>   
+                    <i class="ml-auto fas fa-user-alt"></i>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="{{JavaScript}}"></script>
+
+  </body>
+</html>

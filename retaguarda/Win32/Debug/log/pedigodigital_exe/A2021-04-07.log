@@ -1,0 +1,26 @@
+PedigoDigital.exe: 00003F54: 11:35:01 [TUniServerModule]:Shutting Down Server.
+PedigoDigital.exe: 00003F54: 11:35:01 [TUniServerModule]:Stopping HTTP Server.
+PedigoDigital.exe: 00003F54: 11:35:02 [TUniServerModule]:HTTP Server Stopped.
+PedigoDigital.exe: 00003F54: 11:35:02 [TUniGUISessionManager]:Terminating Session manager.
+PedigoDigital.exe: 00003F54: 11:35:02 [TUniGUISessionManager]:Stopping Cache Eraser...
+PedigoDigital.exe: 00003F54: 11:35:02 [TUniGUISessionManager]:Cache Eraser Stopped.
+PedigoDigital.exe: 00003F54: 11:35:02 [TUniGUISessionManager]:Destroying Worker Threads.
+PedigoDigital.exe: 00003F54: 11:35:02 [TUniGUISessionManager]:Session manager terminated.
+PedigoDigital.exe: 00003F54: 11:35:02 [TUniServerModule]:Server Shutdown Completed.
+PedigoDigital.exe: 00003F54: 11:35:02 []:<-------------------------------------------------------------->
+PedigoDigital.exe: 00003F54: 11:35:02 [Terminated]:Exit Code: 0
+PedigoDigital.exe: 00000B78: 11:35:16 []:>--------------------------------------------------------------<
+PedigoDigital.exe: 00000B78: 11:35:16 [TUniServerModule]:Server First Init.
+PedigoDigital.exe: 00000B78: 11:35:16 [TUniServerModule]:Starting HTTP Server on Port: 4040...
+PedigoDigital.exe: 00000B78: 11:35:16 [TUniServerModule]:HTTP Server Started on Port: 4040
+PedigoDigital.exe: 00000B78: 11:35:26 [TUniServerModule]:Shutting Down Server.
+PedigoDigital.exe: 00000B78: 11:35:26 [TUniServerModule]:Stopping HTTP Server.
+PedigoDigital.exe: 00000B78: 11:35:26 [TUniServerModule]:HTTP Server Stopped.
+PedigoDigital.exe: 00000B78: 11:35:26 [TUniGUISessionManager]:Terminating Session manager.
+PedigoDigital.exe: 00000B78: 11:35:26 [TUniGUISessionManager]:Stopping Cache Eraser...
+PedigoDigital.exe: 00000B78: 11:35:26 [TUniGUISessionManager]:Cache Eraser Stopped.
+PedigoDigital.exe: 00000B78: 11:35:26 [TUniGUISessionManager]:Destroying Worker Threads.
+PedigoDigital.exe: 00000B78: 11:35:26 [TUniGUISessionManager]:Session manager terminated.
+PedigoDigital.exe: 00000B78: 11:35:26 [TUniServerModule]:Server Shutdown Completed.
+PedigoDigital.exe: 00000B78: 11:35:26 []:<-------------------------------------------------------------->
+PedigoDigital.exe: 00000B78: 11:35:26 [Terminated]:Exit Code: 0

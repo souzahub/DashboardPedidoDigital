@@ -1,0 +1,118 @@
+/* 
+    By Silvio Santos
+    E-mail: uniguidesign@gmail.com
+    Telegram: @uniguidevdesign 
+*/
+
+:root {
+    --box1_color: #1d405d;;  /* Cor Total Clientes */
+    --box2_color: #1d405d;;   /* Cor box OS pagas */
+    --box3_color: #1d405d;;  /* Cor box Os em aberto */
+    --box4_color: #1d405d;; /* Cor box OS VALOR Total */
+}
+ 
+.box {
+    color: #EEE;
+    border-radius: 6px;
+    margin: 10px 3px;
+    padding: 8px 5px 5px 12px;
+    height: 120px;   
+    overflow: hidden;         
+    box-shadow: 0 10px 20px -10px rgb(102, 102, 102);
+}
+
+.box p {
+    float: left;
+    font-size: 18px;
+    padding: 8px 0 0 8px;
+    margin: 9px 0 0 0;
+    width: 100%;
+    display: inline;
+}
+
+.box h1 {
+    clear: both;
+    position: relative;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    float: left;
+    font-size: 24px;
+    padding: 0 0 0 7px;
+    margin: 0;
+    z-index: 3;
+}
+
+.box i {
+    position: relative;
+    top: 17px;
+    right: 10px !important;
+    font-size: 70px;
+    opacity: .3;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+    color: #EEE;
+    z-index: 2;
+}
+
+.box:hover i {
+    position: relative;  
+    opacity: .7;    
+}
+
+.box1 {
+    background-color: var(--box1_color);
+}
+
+.box2 {
+    background-color: var(--box2_color);
+}
+
+.box3 {
+    background-color: var(--box3_color);
+}
+
+.box4 {
+    background-color: var(--box4_color);
+}
+
+@media screen and (max-width: 1024px) {
+    .box {
+        height: 100px;
+    }
+
+    .box p   {
+        font-size: 13px;
+    }
+
+    .box h1   {
+        font-size: 20px;
+    } 
+
+    .box i, .box:hover i   {
+        font-size: 52px;
+        top: 16px;
+        right: 6px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .box {
+        height: 100px;
+    }
+
+    .box p   {
+        font-size: 15px;
+    }
+
+    .box h1   {
+        font-size: 18px;
+    }
+
+    .box i, .box:hover i   {
+        font-size: 60px;
+        top: 12px;
+    }
+}
+
